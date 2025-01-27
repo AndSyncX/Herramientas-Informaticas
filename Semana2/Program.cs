@@ -16,7 +16,7 @@ namespace Semana2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Ejercicio13());
+            Application.Run(new Ejercicio14());
         }
     }
 }

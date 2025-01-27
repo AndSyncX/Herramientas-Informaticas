@@ -70,6 +70,18 @@
     <Compile Include="Ejercicio09.Designer.cs">
       <DependentUpon>Ejercicio09.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicio13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio13.Designer.cs">
+      <DependentUpon>Ejercicio13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio14.Designer.cs">
+      <DependentUpon>Ejercicio14.cs</DependentUpon>
+    </Compile>
     <Compile Include="MsgError.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,6 +96,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio12.resx">
       <DependentUpon>Ejercicio12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio13.resx">
+      <DependentUpon>Ejercicio13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio14.resx">
+      <DependentUpon>Ejercicio14.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
