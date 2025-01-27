@@ -46,14 +46,45 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Ejercicio10.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Ejercicio10.Designer.cs">
+      <DependentUpon>Ejercicio10.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicio11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio11.Designer.cs">
+      <DependentUpon>Ejercicio11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio12.Designer.cs">
+      <DependentUpon>Ejercicio12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio09.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio09.Designer.cs">
+      <DependentUpon>Ejercicio09.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MsgError.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ejercicio10.resx">
+      <DependentUpon>Ejercicio10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio11.resx">
+      <DependentUpon>Ejercicio11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio09.resx">
+      <DependentUpon>Ejercicio09.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio12.resx">
+      <DependentUpon>Ejercicio12.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
